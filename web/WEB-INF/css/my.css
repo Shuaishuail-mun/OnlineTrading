@@ -1,0 +1,22 @@
+.kuang{
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid #c4c2cc;
+    border-radius: 3px;
+    color: #d1d5dc;
+}
+
+
+
+
+
+.sell-div{
+    width: 50%;
+    height:450px;
+
+    background-color:#d1d5dc;
+    opacity:0.4;
+    border-radius:10px;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping SYSTEM "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping
+        package="tian"
+        >
+
+    <class name="tian.table.User" table="tian_user">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="pass"/>
+        <property name="userType"/>
+        <property name="telNum"/>
+        <property name="address"/>
+    </class>
+    <class name="tian.table.Type" table="tian_type">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="imgAdr"/>
+    </class>
+    <class name="tian.table.Item" table="tian_item">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="keyWord"/>
+        <property name="price"/>
+        <property name="sel"/>
+        <property name="description"/>
+        <property name="imageNum"/>
+        <property name="typeId"/>
+        <property name="userId"/>
+
+
+    </class>
+    <class name="tian.table.Record" table="tian_record">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="userId"/>
+        <property name="itemId"/>
+         <property name="itemState"/>
+
+       <property name="date" generated="insert">
+            <column name="date" sql-type="timestamp" default="CURRENT_TIMESTAMP"/>
+        </property>
+         <property name="formNumber"/>
+          <property name="formState"/>
+        <property name="tele"/>
+        <property name="addr"/>
+       <property name="selType"/>
+        <property name="selNumber"/>
+       <property name="star"/>
+        <property name="comment"/>
+     <property name="commentState"/>
+
+    </class>
+<class name="tian.table.ChatText" table="tian_chat">
+    <id name="id">
+        <generator class="native"/>
+    </id>
+    <property name="sendId"/>
+    <property name="receId"/>
+    <property name="content"/>
+</class>
+</hibernate-mapping>
