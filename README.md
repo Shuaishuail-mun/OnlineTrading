@@ -8,4 +8,6 @@ After logging in, users can view the newly posted items, post items, manage post
 The following page lists the detailed information of one item. The information includes ratings, price, color, size, comments. There is also a chatting box for users to chat with the seller. ![image](https://user-images.githubusercontent.com/57474978/149646840-03e109ca-8a5a-4e0d-a1ab-e23dc697a908.png)
 ## Shopping cart
 Users can check the shopping cart and view all the items they are interested in. They can also select several items and then make orders. ![image](https://user-images.githubusercontent.com/57474978/149647017-3ce9886d-3413-4f89-a59d-f394a8685eab.png)
+## Messages
+Users can also check the messages sent from other users. They can also chat online in real time as long as both sides are online. ![image](https://user-images.githubusercontent.com/57474978/149647161-3652f223-3d6a-414f-bf75-8a7ec7be3403.png)
 
