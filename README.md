@@ -1,2 +1,2 @@
-# OnlineTrading
-A website for second-hand goods trading
+# Online Trading Platform
+This is a website written in Javascript and the Java framework [Spring MVC](https://spring.io/). This website provides a platform for second-hand goods trading. registered users can post, sell and buy goods through this platform. The buyer can also communicate with the seller before purchasing and comment on the item after getting it. 
